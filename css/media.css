@@ -1,0 +1,630 @@
+@media (min-width: 769px) {
+  .service-btn:hover {
+    background-color: #e06733;
+    color: #fff;
+  }
+
+  .service-btn:active {
+    background-color: #b3532a;
+    color: #fff;
+    transition: none;
+  }
+}
+
+@media (max-width: 1268px) {
+  .services-cards {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 1200px) {
+  .welcome-wrap {
+    align-items: flex-start;
+  }
+
+  .welcome-wrap img {
+    width: 354px;
+    height: 334px;
+  }
+
+  .about-wrap {
+    align-items: flex-start;
+  }
+
+  .about-wrap img {
+    width: 364px;
+    height: 376px;
+  }
+
+  /* .contacts-wrap img {
+    width: 300px;
+    height: 375px;
+  } */
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .services-content {
+    align-items: flex-start;
+    column-gap: 0;
+    flex-direction: column;
+  }
+
+  .service-title {
+    font-size: 35px;
+    line-height: 46px;
+  }
+
+  .service-buttons {
+    margin-top: 42px;
+  }
+
+  .services-cards {
+    margin-top: 2px;
+  }
+
+  .service-item {
+    min-width: 281px;
+    margin-top: 38px;
+  }
+
+  .service-item .item-descr {
+    margin: auto;
+    max-width: 201px;
+    margin-top: 12px;
+  }
+
+  .service-blur {
+    min-width: 280px;
+  }
+
+  .contacts {
+    padding-top: 50px;
+    height: 100%;
+  }
+
+  .contacts-wrap {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 17px;
+  }
+
+  .contacts-title {
+    order: 1;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .contacts-wrap img {
+    margin-top: 251px;
+    width: 340px;
+  }
+
+  .city-card-item {
+    top: 175px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-wrap {
+    height: 120px;
+  }
+
+  .logo {
+    margin-left: -2px;
+  }
+
+  .welcome-wrap {
+    flex-direction: row-reverse;
+    column-gap: 0;
+    padding-top: 33px;
+    padding-bottom: 70px;
+  }
+
+  .welcome-text {
+    min-height: 0;
+    max-width: 341px;
+  }
+
+  .welcome-title {
+    font-size: 35px;
+  }
+
+  .welcome-descr {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #636060;
+  }
+
+  .welcome-wrap img {
+    width: 285px;
+    height: 264px;
+  }
+
+  .about-wrap {
+    flex-direction: column;
+    column-gap: 0;
+    padding-top: 32px;
+    padding-bottom: 95px;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 35px;
+    line-height: 46px;
+  }
+
+  .about-descr {
+    max-width: 100%;
+    margin-top: 50px;
+  }
+
+  .about-wrap img {
+    margin: 0 auto;
+    margin-top: 68px;
+    width: 250px;
+    height: 258px;
+  }
+
+  .service {
+    padding: 60px 0 68px 0;
+  }
+
+  .services-cards {
+    justify-content: space-between;
+  }
+
+  .services-content {
+    align-items: flex-start;
+    column-gap: 0;
+    max-width: 1006px;
+    flex-direction: column;
+  }
+
+  .prices {
+    padding: 39px 0 84px 0;
+  }
+
+  .prices-wrap {
+    column-gap: 0;
+  }
+
+  .prices-title {
+    margin-left: 14px;
+    font-size: 35px;
+  }
+
+  .prices-tariffs {
+    margin-top: 53px;
+  }
+
+  .prices-right {
+    margin-top: 102px;
+  }
+
+  .prices-descr {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .prices-btn {
+    margin-top: 28px;
+  }
+
+  .prices-right img {
+    margin-top: 28px;
+  }
+
+  .contacts {
+    padding-top: 23px;
+  }
+
+  .city-card-item {
+    top: 162px;
+  }
+
+  .contacts-wrap img {
+    margin-top: 287.5px;
+    margin-left: 20px;
+    width: 200px;
+  }
+
+  .contacts-city-wrap {
+    margin-top: 61px;
+  }
+
+  .footer-wrap {
+    height: 181px;
+    justify-content: flex-start;
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .left-column {
+    margin-bottom: 0;
+    margin-right: 3px;
+    margin-top: 33px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .left-column a {
+    margin-left: 3px;
+  }
+
+  .rss-link {
+    margin-top: 17px;
+  }
+
+  .social-links {
+    margin-top: 22px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 692px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .header-wrap {
+    height: 94px;
+  }
+
+  .logo {
+    margin-bottom: 0px;
+  }
+
+  .burger-btn {
+    position: relative;
+    display: flex;
+    z-index: 5;
+  }
+
+  .menu-wrap {
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .burger-line {
+    transition: all 0.3s ease;
+  }
+
+  .change .burger-line {
+    background-color: #fff;
+  }
+
+  .change #burg-line-1 {
+    rotate: -45deg;
+    transform: translateY(10px) translateX(-5px);
+  }
+
+  .change #burg-line-4 {
+    rotate: 45deg;
+    transform: translateY(-10px) translateX(-5px);
+  }
+
+  .change #burg-line-2 {
+    transition: none;
+    opacity: 0;
+  }
+
+  .change #burg-line-3 {
+    transition: none;
+    opacity: 0;
+  }
+
+  .menu-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 70px;
+    width: 125px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: start;
+    z-index: 3;
+  }
+
+  .menu-item {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 25px;
+    opacity: 0;
+    animation: ani 1.2s forwards;
+  }
+
+  @keyframes ani {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .menu-item a {
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  .menu-bg-wrap {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.25s ease-in-out;
+    overflow: hidden;
+  }
+
+  .menu-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    transform: translate(50%, -9%) rotate(7deg);
+    border-radius: 42%;
+    background-color: #e06733;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .change-bg {
+    width: 370px;
+    height: 500px;
+  }
+
+  .welcome-wrap {
+    justify-content: flex-end;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .welcome-wrap img {
+    display: none;
+  }
+
+  .services-cards {
+    justify-content: space-evenly;
+  }
+
+  .service-buttons {
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .service-btn {
+    width: 121px;
+    height: 35px;
+    font-size: 15px;
+  }
+
+  .prices-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prices-title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .prices-tariffs {
+    margin: 0 auto;
+    margin-top: 38px;
+  }
+
+  .tariff-text {
+    font-size: 15px;
+  }
+
+  .prices-descr {
+    text-align: center;
+  }
+
+  .prices-right {
+    align-items: center;
+  }
+
+  .prices-right img {
+    display: none;
+  }
+
+  .contacts-city-wrap {
+    width: 100%;
+  }
+
+  .dropdown-wrapper {
+    width: 91%;
+  }
+}
+
+@media (max-width: 485px) {
+  .service-buttons {
+    max-width: 252px;
+    flex-wrap: wrap;
+  }
+
+  .welcome-text {
+    row-gap: 20px;
+  }
+
+  .welcome-title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .welcome-descr {
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .welcome-btn {
+    width: 100px;
+    height: 34px;
+    font-size: 10px;
+  }
+
+  .about-wrap {
+    padding-top: 30px;
+    padding-bottom: 28px;
+  }
+
+  .about-text {
+    margin-top: 0;
+  }
+
+  .about-title {
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .about-descr {
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .about-wrap img {
+    margin-top: 0;
+    width: 150px;
+    height: 154px;
+  }
+
+  .service {
+    padding: 30px 0 27px 0;
+  }
+
+  .service-title {
+    max-width: 200px;
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .service-buttons {
+    margin-top: 36px;
+  }
+
+  .services-cards {
+    margin-top: 5px;
+  }
+
+  .service-item {
+    margin-top: 34px;
+  }
+
+  .prices {
+    padding: 25px 0 40px 0;
+    background-color: #fff;
+  }
+
+  .prices-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .prices-tariffs {
+    max-width: 224px;
+    padding: 29px 22px;
+  }
+
+  .tariff-item {
+    margin-top: 13px;
+    padding-left: 30px;
+  }
+
+  .show_card {
+    display: block;
+    height: 174px;
+  }
+
+  .prices-right {
+    margin-top: 19px;
+  }
+
+  .prices-descr {
+    max-width: 230px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .prices-btn {
+    margin-top: 20px;
+    width: 121px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .contacts {
+    padding-top: 7px;
+  }
+
+  /* .contacts-wrap {
+    height: 445px;
+    display: block;
+  } */
+
+  .contacts-title {
+    font-size: 25px;
+    line-height: 33px;
+    margin-right: 4px;
+  }
+
+  .contacts-city-wrap {
+    margin-top: 81px;
+  }
+
+  .contacts-city-wrap .circle-icon {
+    margin-right: 22px;
+  }
+
+  .contacts-wrap img {
+    width: 100px;
+    margin-top: 133px;
+    margin-left: 0;
+    margin-right: 4px;
+  }
+
+  .contacts-city-wrap {
+    margin-top: 42px;
+  }
+
+  .city-card-item {
+    top: 120px;
+  }
+
+  .footer-wrap {
+    height: 146px;
+  }
+
+  .left-column {
+    margin-top: 22px;
+  }
+
+  .social-links {
+    margin-top: 9px;
+  }
+}
