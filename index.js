@@ -1,5 +1,3 @@
-console.log('Самооценка работы: 100 баллов.');
-
 // Бургер меню
 
 const burgerBtn = document.querySelector('.burger-btn'),
@@ -38,7 +36,7 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// Раздел Service (идиотское решение, переделаю когда додумаюсь как)
+// Раздел Service
 
 const serviceBtn = document.querySelector('.service-buttons'),
   btn = document.querySelectorAll('.service-btn'),
